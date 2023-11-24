@@ -111,6 +111,9 @@ body {
     }
     .second-row {
         height: 1500px;
+    } 
+    .second-sect-elem {
+        border-right: none;
     }
     .third-row{
         height: 1500px;
