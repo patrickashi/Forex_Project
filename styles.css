@@ -102,12 +102,21 @@ body {
         padding: 0;
         
     }
+    .first-row {
+        max-height: 500px;
+    }
     .main-cont {
         width: 600px;
     }
     .review {
         font-size: 15px;
         
+    }
+    .bold-text {
+        margin: 0;
+    }
+    .what-can {
+        text-align: center;
     }
     .second-row {
         height: 1500px;
@@ -126,9 +135,15 @@ body {
         min-height: 1000px;
 
     }
+    .fourth-row h2 {
+        text-align: center;
+    }
+    
+    }
     .fifth-row {
         min-height: 1000px;
     }
+    
     .sixth-row {
         min-height: 1000px;
     }
@@ -162,7 +177,7 @@ body {
         margin-left: 300px;
         
     }
-}
+
    
 .right-col {
     position: relative;
@@ -253,6 +268,7 @@ body {
 }
 .bold-text {
     font-weight: 700;
+    /* margin-left: 60px !important; */
 }
 
 .fourth-row {
