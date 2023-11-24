@@ -87,14 +87,20 @@ body {
     align-items: center;
     backdrop-filter: blur(9px);
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     *{
+        max-width: 100%;
         margin: 0;
         padding: 0;
+        font-size: smaller;
+    }
+    .navbar {
+        max-width: 100%;
     }
     .navbar a {
         font-size: 13px;
         padding: 0;
+        
     }
     .main-cont {
         width: 600px;
@@ -115,6 +121,7 @@ body {
     }
     .fourth-row {
         min-height: 1000px;
+
     }
     .fifth-row {
         min-height: 1000px;
